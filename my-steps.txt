@@ -1,87 +1,345 @@
 ### Step 2A
+/c/Users/micha
 
 
 ### Step 2B
+$ cd Desktop
+
+micha@Cole-Laptop MINGW64 ~/Desktop
+$ pwd
+/c/Users/micha/Desktop
+
+
 
 
 ### Step 2C
+micha@Cole-Laptop MINGW64 ~/Desktop
+$ ls
+'Bloons TD 6.url'  'HX Edit.lnk'*  'Line 6 Updater.lnk'*              Misc/      'Steam Games'/  'Visual Studio Code.lnk'*   dnd.txt                                           unit1-git-practice/   '~$w Microsoft Word Document.docx'
+ Coding/            Launchers/     'Michael Jenkins Signature.docx'   Software/  'Text Docs'/     desktop.ini                main-qimg-90d722273991bf7f52d8922e26bfbdab.webp  '~$Secret Santa.xlsx'
+
+micha@Cole-Laptop MINGW64 ~/Desktop
+$ cd unit1-git-practice
+
+micha@Cole-Laptop MINGW64 ~/Desktop/unit1-git-practice
+$ pwd
+/c/Users/micha/Desktop/unit1-git-practice
+
 
 
 ### Step 2D
-
+/c/Users/micha/Desktop/unit1-git-practice
 
 ### Step 2E
+micha@Cole-Laptop MINGW64 ~/Desktop/unit1-git-practice
+$ ls
+my-steps.txt
 
 
 ### Step 2F
-
+my-steps.txt
 
 ### Step 2G
+micha@Cole-Laptop MINGW64 ~
+$ cd ~
 
 
 ### Step 2H
+/c/Users/micha
 
 
 ### Step 2I
+micha@Cole-Laptop MINGW64 ~
+$ ls
+'3D Objects'/                                                                                                 Documents/             NTUSER.DAT{dcef06a4-8b1d-11ed-9055-005056c00001}.TM.blf                                        Recent@          eclipse/
+ AppData/                                                                                                     Downloads/             NTUSER.DAT{dcef06a4-8b1d-11ed-9055-005056c00001}.TMContainer00000000000000000001.regtrans-ms  'Saved Games'/    eclipse-workspace/
+'Application Data'@                                                                                           Favorites/             NTUSER.DAT{dcef06a4-8b1d-11ed-9055-005056c00001}.TMContainer00000000000000000002.regtrans-ms   Searches/        ntuser.dat.LOG1
+'Cisco Packet Tracer 8.1.1'/                                                                                  Links/                 NetHood@                                                                                       SendTo@          ntuser.dat.LOG2
+ Contacts/                                                                                                   'Local Settings'@       OneDrive/                                                                                     'Start Menu'@     ntuser.ini
+ Cookies@                                                                                                     Music/                 Pictures/                                                                                      SynologyDrive/   source/
+'Creative Cloud Files'/                                                                                      'My Documents'@         PrintHood@                                                                                     Templates@
+'Creative Cloud Files MCJ26@email.sc.edu c6fec333f4a41898a4d8ac07ca989a44f6920658b88bf0541d564a5e8cabfaa8'/  'NCH Software Suite'/   PycharmProjects/                                                                               Videos/
+ Desktop/                                                                                                     NTUSER.DAT             Python/                                                                                        ansel/
 
 
 ### Step 2J
-
+cd ~  **However I was already in my home directory I only printed the file structure and did not navigate anywhere, but for the purpose of command practice I re-executed the cd ~**
 
 ### Step 2K
 
+micha@Cole-Laptop MINGW64 /
+$ cd ~/Desktop/unit1-git-practice
 
 
 ### Step 3A
+micha@Cole-Laptop MINGW64 ~/Desktop/unit1-git-practice
+$ mkdir veggies
+
+micha@Cole-Laptop MINGW64 ~/Desktop/unit1-git-practice
+$ mkdir meats
+
+micha@Cole-Laptop MINGW64 ~/Desktop/unit1-git-practice
+$ mkdir desserts
 
 
 ### Step 3B
+micha@Cole-Laptop MINGW64 ~/Desktop/unit1-git-practice
+$ mv desserts sweets
+
+micha@Cole-Laptop MINGW64 ~/Desktop/unit1-git-practice
+$ ls
+meats/  my-steps.txt  sweets/  veggies/
+
 
 
 ### Step 3C
+mkdir proteins
 
 
 ### Step 3D
+mv meats proteins
 
 
 ### Step 3E
+micha@Cole-Laptop MINGW64 ~/Desktop/unit1-git-practice
+$ cd veggies
+
+micha@Cole-Laptop MINGW64 ~/Desktop/unit1-git-practice/veggies
+$ touch carrot.txt
 
 
 ### Step 3F
 
+micha@Cole-Laptop MINGW64 ~/Desktop/unit1-git-practice/veggies
+$ cd ..
+
+micha@Cole-Laptop MINGW64 ~/Desktop/unit1-git-practice
+$ cd sweets
+
+micha@Cole-Laptop MINGW64 ~/Desktop/unit1-git-practice/sweets
+$ touch cookie.txt
+
+micha@Cole-Laptop MINGW64 ~/Desktop/unit1-git-practice/sweets
+$ ls
+cookie.txt
+
+
 
 ### Step 3G
+$ mv cookie.txt donut.txt
+
+micha@Cole-Laptop MINGW64 ~/Desktop/unit1-git-practice/sweets
+$ ls
+donut.txt
 
 
 ### Step 3H
+micha@Cole-Laptop MINGW64 ~/Desktop/unit1-git-practice
+$ touch thing.txt
+
+micha@Cole-Laptop MINGW64 ~/Desktop/unit1-git-practice
+$ ls
+my-steps.txt  proteins/  sweets/  thing.txt  veggies/
+
 
 
 ### Step 3I
+micha@Cole-Laptop MINGW64 ~/Desktop/unit1-git-practice
+$ cp thing.txt tofu.txt
+
+micha@Cole-Laptop MINGW64 ~/Desktop/unit1-git-practice
+$ ls
+my-steps.txt  proteins/  sweets/  thing.txt  tofu.txt  veggies/
 
 
 ### Step 3J
+micha@Cole-Laptop MINGW64 ~/Desktop/unit1-git-practice
+$ mv tofu.txt proteins
+
+micha@Cole-Laptop MINGW64 ~/Desktop/unit1-git-practice
+$ cd proteins
+
+micha@Cole-Laptop MINGW64 ~/Desktop/unit1-git-practice/proteins
+$ ls
+meats/  tofu.txt
+
 
 
 ### Step 3K
+micha@Cole-Laptop MINGW64 ~/Desktop/unit1-git-practice
+$ cp thing.txt crab.txt
+
+micha@Cole-Laptop MINGW64 ~/Desktop/unit1-git-practice
+$ mv crab.txt proteins/meats
+
+micha@Cole-Laptop MINGW64 ~/Desktop/unit1-git-practice
+$ cd protedins/meats
+bash: cd: protedins/meats: No such file or directory
+
+micha@Cole-Laptop MINGW64 ~/Desktop/unit1-git-practice
+$ cd proteins/meats
+
+micha@Cole-Laptop MINGW64 ~/Desktop/unit1-git-practice/proteins/meats
+$ ls
+crab.txt
 
 
 ### Step 3L
+micha@Cole-Laptop MINGW64 ~/Desktop/unit1-git-practice
+$ rm -r thing.txt
+
+micha@Cole-Laptop MINGW64 ~/Desktop/unit1-git-practice
+$ ls
+my-steps.txt  proteins/  sweets/  veggies/
 
 
 ### Step 3M
+micha@Cole-Laptop MINGW64 ~/Desktop/unit1-git-practice
+$ cp -r veggies plants
+
+micha@Cole-Laptop MINGW64 ~/Desktop/unit1-git-practice
+$ ls
+my-steps.txt  plants/  proteins/  sweets/  veggies/
+
+
 
 
 ### Step 3N
 
+micha@Cole-Laptop MINGW64 ~/Desktop/unit1-git-practice
+$ mkdir drinks
+
+micha@Cole-Laptop MINGW64 ~/Desktop/unit1-git-practice
+$ ls
+drinks/  my-steps.txt  plants/  proteins/  sweets/  veggies/
+
+micha@Cole-Laptop MINGW64 ~/Desktop/unit1-git-practice
+$ rmdir drinks
+
+micha@Cole-Laptop MINGW64 ~/Desktop/unit1-git-practice
+$ ls
+my-steps.txt  plants/  proteins/  sweets/  veggies/
 
 
 ### Step 4
+ git init
+Initialized empty Git repository in C:/Users/micha/Desktop/unit1-git-practice/.git/
+
 
 
 ### Step 5
+micha@Cole-Laptop MINGW64 ~/Desktop/unit1-git-practice (master)
+$ git add .
+warning: in the working copy of 'my-steps.txt', LF will be replaced by CRLF the next time Git touches it
 
+micha@Cole-Laptop MINGW64 ~/Desktop/unit1-git-practice (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   my-steps.txt
+        new file:   plants/carrot.txt
+        new file:   plants/pea.txt
+        new file:   proteins/meats/crab.txt
+        new file:   proteins/tofu.txt
+        new file:   sweets/donut.txt
+        new file:   veggies/carrot.txt
+        new file:   veggies/pea.txt
+
+
+micha@Cole-Laptop MINGW64 ~/Desktop/unit1-git-practice (master)
+$ git commit -m "First commit"
+[master (root-commit) 170061b] First commit
+ 8 files changed, 88 insertions(+)
+ create mode 100644 my-steps.txt
+ create mode 100644 plants/carrot.txt
+ create mode 100644 plants/pea.txt
+ create mode 100644 proteins/meats/crab.txt
+ create mode 100644 proteins/tofu.txt
+ create mode 100644 sweets/donut.txt
+ create mode 100644 veggies/carrot.txt
+ create mode 100644 veggies/pea.txt
+
+micha@Cole-Laptop MINGW64 ~/Desktop/unit1-git-practice (master)
+$ ^[[200~git remote add origin https://github.com/ColeJ1115/unit1-git-practice.git
+bash: $'\E[200~git': command not found
+
+micha@Cole-Laptop MINGW64 ~/Desktop/unit1-git-practice (master)
+$ git remote add origin https://github.com/ColeJ1115/unit1-git-practice.git
+git branch -M main
+git push -u origin main
+
+
+
+
+
+micha@Cole-Laptop MINGW64 ~/Desktop/unit1-git-practice (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+micha@Cole-Laptop MINGW64 ~/Desktop/unit1-git-practice (main)
+$ git remote add origin https://github.com/ColeJ1115/unit1-git-practice.git
+git branch -M main
+git push -u origin main
+error: remote origin already exists.
+
+
+
+micha@Cole-Laptop MINGW64 ~/Desktop/unit1-git-practice (main)
+$ git remote add origin https://github.com/ColeJ1115/unit1-git-practice.git~
+error: remote origin already exists.
+
+micha@Cole-Laptop MINGW64 ~/Desktop/unit1-git-practice (main)
+$ git branch -M main
+
+$ git push -u origin main
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (8/8), 666 bytes | 666.00 KiB/s, done.
+Total 8 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/ColeJ1115/unit1-git-practice.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
 
 ### Step 6
+micha@Cole-Laptop MINGW64 ~/Desktop/unit1-git-practice (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        menu.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+micha@Cole-Laptop MINGW64 ~/Desktop/unit1-git-practice (main)
+$ git add .
+
+
+micha@Cole-Laptop MINGW64 ~/Desktop/unit1-git-practice (main)
+$ git commit -m "starting a menu"
+[main 55e458b] starting a menu
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 menu.txt
+
+micha@Cole-Laptop MINGW64 ~/Desktop/unit1-git-practice (main)
+$  git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 268 bytes | 268.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/ColeJ1115/unit1-git-practice.git
+   170061b..55e458b  main -> main
 
 
 ### Step 7
